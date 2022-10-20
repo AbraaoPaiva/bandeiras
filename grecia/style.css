@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.bandeira {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.grecia_top_left > * {
+    background-color: #076bca;
+}
+.grecia {
+    background: repeating-linear-gradient(
+      #0568c4,
+      #0568c4 11.11%,
+      #fff 11.11%,
+      #fff 22.22%
+    );
+}
+.grecia_top_left {
+    width: 176px;
+    height: 111.33px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}

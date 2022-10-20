@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.bandeira {
+    overflow: hidden;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.libano {
+    place-items: center;
+    display: grid;
+    background: linear-gradient(#fb2c33 25%, rgb(248, 248, 248) 25%, rgb(248, 248, 248) 75%, #fb2c33 0);
+}

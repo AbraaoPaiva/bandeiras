@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+  
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.bandeira {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+  
+.dinamarca {
+    background-color: #d1102d;
+}
+  
+.dinamarca::before {
+    position: absolute;
+    content: "";
+    height: 300px;
+    right: 291px;
+    left: 112px;
+    background-color: white;
+}
+  
+.dinamarca::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 127px;
+    bottom: 127px;
+    background-color: white;
+}
